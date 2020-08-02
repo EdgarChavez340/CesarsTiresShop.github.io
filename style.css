@@ -1,3 +1,5 @@
+
+
 .hero-image {
 	background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.15752-9/116793365_797859007418670_8297082017258400114_n.jpg?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=HqC2CO7cGG0AX_m1IJ3&_nc_ht=scontent-sea1-1.xx&oh=cb8cf18506ec1971e84894b3839b9436&oe=5F4E027A"); /* The image used */
 	background-color: #cccccc; /* Used if the image is unavailable */
@@ -13,4 +15,25 @@
 	padding-top: 8%;
 
 }
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; 
+
+}
+
+  .card {
+    display: inline-block;
+   width: 300px;
+   height: 	300px
+  }
+
+div h1 {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);;
+}
+
+
 
